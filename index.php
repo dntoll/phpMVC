@@ -10,6 +10,8 @@ class MainController {
 
 		
 		setcookie("theCookies");
+
+		echo "<h2>fhnweoihtfi</h3>";
 	}
 
 }
