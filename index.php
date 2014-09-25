@@ -2,9 +2,11 @@
 
 namespace controller;
 
+require_once("URLView.php");
+
 class MainController {
 	public function __construct() {
-		echo "foo";
+		$this->view = new \view\URLView();
 	}
 
 }
